@@ -1,0 +1,31 @@
+{
+  "name": "todo-app-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for Todo App using React Native and Expo",
+  "main": "App.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.15.9",
+    "@react-navigation/native": "^6.0.2",
+    "@react-navigation/stack": "^6.0.7",
+    "axios": "^0.24.0",
+    "expo": "~50.0.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-native": "0.64.3",
+    "react-native-gesture-handler": "~1.10.2",
+    "react-native-reanimated": "~2.2.0",
+    "react-native-safe-area-context": "3.3.2",
+    "react-native-screens": "~3.8.0",
+    "react-native-web": "0.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6"
+  },
+  "private": true
+}
